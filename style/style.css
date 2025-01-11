@@ -346,7 +346,13 @@ body{
 }
 /* donate style end here  */
 /* challenge style two start here  */
-
+.my-challenge{
+    margin: 5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* challenge style two end here  */
 
 
