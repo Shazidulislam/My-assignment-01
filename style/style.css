@@ -21,7 +21,7 @@ body{
     width: 120rem;
     max-width: 150%;
     margin: auto;
-    box-shadow: .1rem 0.1rem .1rem #4c4c4c, -.1rem 0rem .1rem #4c4c4c ;
+    box-shadow: -.1rem -0.1rem .1rem #4c4c4c, -.1rem -.1rem .1rem #4c4c4c ;
 }
 .btn{
     font-family: "Fira Sans",sans-serif;
@@ -352,6 +352,38 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    height: 395px;
+    margin-bottom: 10rem;
+}
+.extra__width{
+    width: 620px;
+    text-align: center;
+    margin: 2rem;
+}
+
+.email__input{
+    width: 600px;
+    padding: 28px 20px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: #0E0E0E;
+    margin: 00;
+    border: none;
+    border-radius: 12px 0 0 12px;
+}
+.search__button{
+    padding: 28px 25px;
+    background-color: #006A50;
+    font-size: 18px;
+    color: #fff;
+    margin: 00;
+    border: none;
+    border-radius:0 12px 12px 0;
+}
+.search__description{
+    padding: 2.3rem 0;
 }
 /* challenge style two end here  */
 
