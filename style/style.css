@@ -1,0 +1,333 @@
+
+/* reseat code is start here  */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: 400;
+
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62%;
+    font-family: "Fira Sans",sans-serif;
+    background-color: #F5EFFF;
+}
+body{
+    background-color: #F5EFFF;
+    width: 120rem;
+    max-width: 150%;
+    margin: auto;
+    box-shadow: .1rem 0.1rem .1rem #4c4c4c, -.1rem 0rem .1rem #4c4c4c ;
+}
+.btn{
+    font-family: "Fira Sans",sans-serif;
+    background-color: #006A50;
+    color: #fff;
+    font-weight: 600;
+    line-height: auto;
+    padding: 17px 34px ;
+    opacity: 100%;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.section__heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    font-family: "Fira Sans",sans-serif;
+    opacity: 100%;
+}
+/* reseat code is end here  */
+/* nav code start here  */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px;
+    border: none;
+    opacity:100% ;
+    /* background-color: #F0F0D7; */
+}
+.nav__link{
+    font-size: 2rem;
+    color: #0E0E0E;
+    font-weight: 700;
+    opacity: 100%;
+    margin: 0rem 2rem;
+}
+.nav__btn{
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    border: 5px solid #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0rem 2rem;
+}
+/* nav code start here  */
+/* banner section is start here  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    max-width: 1280px;
+    padding: 100px 80px;
+    border-radius: 24px;
+    margin: 1rem 4rem;
+}
+.banner__heading{
+    letter-spacing: 0%;
+    font-size: 24px;
+    color: #0e0e0e80;
+    font-weight: 400;
+    opacity: 100%;
+    font-family: "Fira Sans"sans-serif;
+}
+.banner-sub__heading{
+    font-size: 56px;
+    font-weight: 700;
+    width: 610px;
+}
+/* banner section is end here  */
+/* card style section start here  */
+.card-section{
+    margin: 5rem 4rem;
+}
+.card__container{
+    display: flex;
+}
+.card__img{
+    padding-bottom: 2rem;
+}
+.card__div{
+    width: 302px;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    color: #0E0E0E;
+    margin: 1rem;
+}
+.card__heading{
+    font-family: "Fira Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 700px;
+    color: #0E0E0E;
+    opacity: 100%;
+    letter-spacing: 0%;
+    padding: 1rem;
+}
+.card__description{
+    padding: 1rem;
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+/* card style section start here  */
+/* The Vision of Future style code start here  */
+.vision-section{
+    margin: 5rem 4rem;
+}
+.vision-card__heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
+    font-family: "Fira Sans",sans-serif;
+}
+.vision__description{
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    width: 1000px;
+    text-align: justify;
+    line-height:24px ;
+    font-size: 14px;
+    margin: 2rem 0;
+}
+.vision__card{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.vision-sub__card{
+    padding: 32px;
+    border-radius: 16px;
+    width: 410px;
+    margin: 2rem 0;
+}
+.card__one{
+    background-color: #548ff552;
+}
+.card__two{
+    background-color: #C6E4D6;
+}
+.card__three{
+    background-color: #F7EBCF;
+}
+.vision-card__heading{
+    font-family: "Fira Sans";
+    font-weight: 700;
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin:  1rem 0;
+}
+.vision-card__description{
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 14px;
+    font-family: "Fira Sans",sans-serif;
+    margin:  10px 0;
+    color: #0E0E0E;
+
+}
+.vision-card__btn-1{
+    background-color: #5490F5;
+}
+.vision-card__btn-3{
+    background-color: #FFC239;
+}
+/* The Vision of Future style code end here  */
+/* challenge section start here  */
+.challenge{
+    margin: 5rem 4rem;
+    background-image: url(../assets/quote-bg.png);
+    background-position: 20px  50px;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    background-color: #fff;
+    border-radius: 16px;
+
+}
+.challenge__description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0e0e0eb7;
+    text-align: justify;
+    line-height: 24px;
+    margin: 1rem 0;
+}
+.challenge__heading{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Fira Sans",sans-serif;
+    color: #0E0E0E;
+    padding: 1rem 0;
+}
+.challenge-sub__description{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Fira Sans",sans-serif;
+    color: #0e0e0ea9;
+}
+/* challenge section end here  */
+/* recent section style start here  */
+.recent-section{
+    margin: 5rem 4rem;
+}
+.recent-head__container{
+    margin: 5rem 0;
+}
+.recent__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 24px;
+    margin: 5rem 0;
+}
+.recent__description{
+    font-weight: 450;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 16px;
+    color: #0E0E0E;
+    line-height: 24px;
+    margin: 1.5rem 0;
+}
+#extra__class{
+    font-weight: 450;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 40%;
+    line-height: 24px;
+    margin: 1.5rem 0;
+}
+.recent__container-img{
+    width: 408px;
+    height: 306px;
+    opacity: 100%;
+    border-radius: 24px;
+
+}
+.recent__div-heading{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Fira Sans",sans-serif;
+    color: #0E0E0E;
+}
+.date-and__time{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+.pal{
+    font-size: 16px;
+    font-weight: 450;
+    font-family: "Fira Sans",sans-serif;
+    color: #0E0E0E;
+    opacity: 50%;
+}
+/* recent section style end here  */
+
+.donate-section{
+    margin: 5rem 4rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.donate__description{
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 60%;
+}
+.donate__btn{
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+    opacity: 80%;
+    transition: all .3s linear;
+    margin: 2rem 0;
+}
+:hover.donate__btn{
+    background-color: #C6E4D6;
+    opacity: 100%;
+}
+.donate__container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+
+
