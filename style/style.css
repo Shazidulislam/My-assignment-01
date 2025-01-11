@@ -21,7 +21,7 @@ body{
     width: 120rem;
     max-width: 150%;
     margin: auto;
-    box-shadow: -.1rem -0.1rem .1rem #4c4c4c, -.1rem -.1rem .1rem #4c4c4c ;
+    box-shadow: .1rem 0.1rem .1rem #4c4c4c, -.1rem 0rem .1rem #4c4c4c ;
 }
 .btn{
     font-family: "Fira Sans",sans-serif;
@@ -386,6 +386,33 @@ body{
     padding: 2.3rem 0;
 }
 /* challenge style two end here  */
+/* footer-style start here  */
+.footer__container{
+    margin: 5rem 4rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer__ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 4rem 0;
+    cursor: pointer;
+}
+.footer__heading{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Fira Sans",sans-serif;
+    color: #0E0E0E;
+    margin: 4rem 0;
+
+}
+/* footer-style end here  */
+
 
 
 
