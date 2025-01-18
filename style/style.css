@@ -1,9 +1,9 @@
 
-/* reseat code is start here  */
+ /* reseat code is start here  */
 *{
-    padding: 0;
+    /* padding: 0;
     margin: 0;
-    outline: 0;
+    outline: 0; */
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
@@ -18,9 +18,9 @@ html{
 }
 body{
     background-color: #F5EFFF;
-    width: 120rem;
-    max-width: 150%;
-    margin: auto;
+    /* width: 100rem;
+    max-width: 100%; */
+    margin:  auto;
     box-shadow: .1rem 0.1rem .1rem #4c4c4c, -.1rem 0rem .1rem #4c4c4c ;
 }
 .btn{
@@ -62,7 +62,7 @@ body{
 }
 .nav__btn{
     color: #006A50;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 600;
     padding: 15px 30px;
     background-color: #ffffff;
@@ -78,7 +78,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #C6E4D6;
-    max-width: 1280px;
+    /* max-width: 1280px; */
     padding: 100px 80px;
     border-radius: 24px;
     margin: 1rem 4rem;
@@ -94,7 +94,7 @@ body{
 .banner-sub__heading{
     font-size: 56px;
     font-weight: 700;
-    width: 610px;
+    width: 100%;
 }
 /* banner section is end here  */
 /* card style section start here  */
@@ -103,6 +103,9 @@ body{
 }
 .card__container{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
 .card__img{
     padding-bottom: 2rem;
@@ -113,7 +116,7 @@ body{
     border-radius: 16px;
     background-color: #FFFFFF;
     color: #0E0E0E;
-    margin: 1rem;
+    /* margin: 1rem; */
 }
 .card__heading{
     font-family: "Fira Sans",sans-serif;
@@ -149,7 +152,7 @@ body{
     font-weight: 400;
     color: #0E0E0E;
     opacity: 70%;
-    width: 1000px;
+    /* width: 90%; */
     text-align: justify;
     line-height:24px ;
     font-size: 14px;
@@ -163,7 +166,6 @@ body{
 .vision-sub__card{
     padding: 32px;
     border-radius: 16px;
-    width: 410px;
     margin: 2rem 0;
 }
 .card__one{
@@ -267,8 +269,9 @@ body{
     margin: 1.5rem 0;
 }
 .recent__container-img{
-    width: 408px;
-    height: 306px;
+    /* width: 408px; */
+    /* height: 306px; */
+    width: 100%;
     opacity: 100%;
     border-radius: 24px;
 
@@ -329,9 +332,10 @@ body{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    
 }
 .donate__input{
-    width: 1032px;
+    /* width: 1032px; */
     text-align: center;
     font-size: 20px;
     padding: 30px 20px;
@@ -358,13 +362,17 @@ body{
     margin-bottom: 10rem;
 }
 .extra__width{
-    width: 620px;
+    /* width: 50%; */
     text-align: center;
     margin: 2rem;
 }
-
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .email__input{
-    width: 600px;
+    width: 540px;
     padding: 28px 20px;
     background-color: #FFFFFF;
     font-size: 18px;
@@ -388,30 +396,108 @@ body{
 /* challenge style two end here  */
 /* footer-style start here  */
 .footer__container{
-    margin: 5rem 4rem;
-    flex-direction: column;
+    /* margin: 1rem 1rem; */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
     
 }
 .footer__ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    margin: 4rem 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 2rem 0;
     cursor: pointer;
 }
 .footer__heading{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     font-family: "Fira Sans",sans-serif;
     color: #0E0E0E;
-    margin: 4rem 0;
-
+    margin: 2rem 0;
 }
 /* footer-style end here  */
+/* responsive style start here  small device */
+@media screen and (max-width:576px) {
+    html{
+        font-size: 48.5%;
+    }
+    body{
+        font-size: 48.5% ;
+    }
+
+
+    .banner,
+    .footer__ul,
+    .recent__container,
+    .vision__card,
+    .donate__container,
+    .card__container{
+        flex-direction: column;
+    }
+    .banner-sub__heading{
+        /* width: 90%; */
+        font-size: 2.7rem;
+    }
+    .banner__img{
+        width: 90%;
+
+    }
+    .card__title{
+        text-align: center;
+    }
+    .vision__description{
+        width: 90%;
+    }
+    .vision-sub__card{
+        width: 70%;
+
+    }
+    .email__input{
+        max-width: 25rem;
+        padding: 2.2rem 1.5rem ;
+        font-size: 1.5rem;
+    }
+    .section__title{
+        font-size: 2rem;
+    }
+    .search__button{
+        padding: 2.2rem 1.5rem ;
+        font-size: 1.5rem;
+    }
+    /* .donate__input{
+        width: 200px;
+     } */
+}
+/* responsive style start here  small device */
+@media screen and (min-width:577px) and (max-width:992px) {
+    html{
+        font-size: 55.5%;
+    }
+    .banner,
+    .recent__container,
+    .vision__card,
+    .donate__container,
+    .card__container{
+        flex-direction: column;
+    }
+    .card__title{
+        text-align: center;
+    }
+    /* .donate__input{
+        width: 200px;
+    } */
+    .donate__container{
+        flex-wrap: wrap;
+    }
+    .email__input{
+        max-width: 60%;
+    }
+}
+
 
 
 
